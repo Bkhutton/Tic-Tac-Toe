@@ -43,7 +43,7 @@ void movePlayer1(char board[3][3], Player p1);
 bool getFirstTurn()
 {
 	int r = rand()%10;
-        return r < 5;
+	return r < 5;
 }
 
 //Checks to see if someone has won
